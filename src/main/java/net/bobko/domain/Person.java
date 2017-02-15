@@ -1,9 +1,8 @@
-package domain;
+package net.bobko.domain;
 
 /**
- * Created by TimeLine on 13.02.2017.
+ * Created by TimeLine on 15.02.2017.
  */
-
 public class Person {
 
     private int id;
@@ -96,3 +95,5 @@ public class Person {
                 "status=" + status + "/n";
     }
 }
+
+

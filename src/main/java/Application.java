@@ -8,15 +8,9 @@ import org.springframework.web.bind.annotation.*;
  */
 
 
-@org.springframework.stereotype.Controller
+@SpringBootApplication
 @EnableAutoConfiguration
 public class Application {
-
-    @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
