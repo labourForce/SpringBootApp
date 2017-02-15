@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 
-@SpringBootApplication
+
 @ComponentScan("net.bobko")
 public class Application {
 
